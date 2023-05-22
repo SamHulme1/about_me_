@@ -1,23 +1,19 @@
 <html lang="en">
+
 <head>
-    <% include ../helpers/head %>
+  <% include ../helpers/head %>
 </head>
 
 <body>
-  <!-- the classes 'page-header' and 'btn btn-dark' create bootstrap components.  -->
-  <!-- Check out more components here: http://getbootstrap.com/components/ -->
-  <div class="page-header">
-
-  
-    <h1>My Web App</h1>
-  </div>
-
-  <p>Click on the button for a surprise.</p>
-
-  <button onClick="showPicture()" class="btn btn-dark">Click me</button>
-
-  <div id="image"></div>
-  
+    <div id="loader">
+      <div id="loader-content">
+        <button type="button" class="btn btn-primary btn-lg" onclick="removeLoader()">Welcome</button>
+      </div>
+    </div>
+    <% include ../helpers/nav %>
+    <div class="page-header">
+      <h1>Home</h1>
+    </div>
 </body>
 
 </html>
