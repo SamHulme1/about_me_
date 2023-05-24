@@ -1,19 +1,51 @@
 <html lang="en">
 
 <head>
-  <% include ../helpers/head %>
+  <%- include ('../helpers/head') %>
 </head>
 
 <body>
     <div id="loader">
       <div id="loader-content">
-        <button type="button" class="btn btn-primary btn-lg" onclick="removeLoader()">Welcome</button>
+        <button type="button" class="btn btn-primary btn-lg" id="welcome-button">View Site</button>
       </div>
     </div>
-    <% include ../helpers/nav %>
+    <%- include ('../helpers/nav') %>
     <div class="page-header">
       <h1>Home</h1>
     </div>
+    <div class="row justify-content-center m-5">
+      <div class="col-6">
+        <div id="hero-container">
+          <img src="/images/hero-image.jpg" alt="hero-image" id="hero-img" class="shadow">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12" data-aos="fade-in">
+          <p class="p-5">Hi, i'm Sam. I'm 25 years old, 
+              I developed this site as part of my active learning in web devlopment, to showcase some of my skills and to tell you a little bit more about myself. 
+              click the links below to see a little bit more about me and some of the projects I've worked on.
+              I hope you enjoy!
+          </p>
+      </div>
+  </div>
+    <div class="container-fluid">
+      <div class="col-12 jumbotron jumbotron-fluid p-0">About</div>
+      <div class="col-12 jumbotron jumbotron-fluid p-0">Projects</div>
+      <div class="col-12 jumbotron jumbotron-fluid p-0">CV</div>
+    </div>
+    <footer id="footer">
+      <div class="container-fluid">
+          <div class="row justify-content-center">
+              <h3 class="contact-icons">
+                <div class="col-12 p-2">
+                  <a href="https://github.com/SamHulme1" target="_blank" class="h1 text-light"><i class="fa-brands fa-github"></i><span class="sr-only">twitter link</span></a>
+                </div>
+              </h3>
+          </div>
+      </div>
+    </footer>
 </body>
 
 </html>
