@@ -127,7 +127,6 @@ button {
 
 .project-img {
   width: 100%;
-  height: 100%;
 }
 
 #hero-container {
@@ -137,6 +136,6 @@ button {
 
 #hero-img {
   border-radius: 50%;
-  width: 60%;
-  height: 120%;
+  width: 6em;
+  height: 7em;
 }
