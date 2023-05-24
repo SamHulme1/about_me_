@@ -1,20 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 
 body {
-  font-family: Arial, serif;
+  font-family: 'EB Garamond', serif;
   text-align: center;
-  color: #343a40;
+  color: #0E1140;
   font-size: 22px;
+  background-color:#F2EFEB;
 }
 
-h1 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  margin-top: 40px;
-  font-size: 48px;
+.jumbotron {
+  background-color: #515373;
+  color: white;
 }
 
-p {
-  margin-top: 80px;
+footer {
+  background-color: #0E1140;
 }
 
 button {
@@ -22,18 +23,12 @@ button {
 }
 
 .page-header {
-  background-color: #00bda5;
+  background-color: #515373;
   padding-top: 40px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   color: #ffffff;
 }
 
-#progress-bar {
-  width: 100%;
-  background-color: lightgray;
-  height: 2vh;
-  border-radius: 1em;
-}
 
 #loader {
   width: 100%;
@@ -51,6 +46,97 @@ button {
   position: relative;
 }
 
-.btn-lg {
-  font-size: 2.25em;
+
+
+.colour-slide-one {
+  animation: slide 6s;
+  width:95%;
+}
+
+.colour-slide-two {
+  animation: slide-two 6s;
+  width:85%;
+}
+
+.colour-slide-three {
+  animation: slide-three 6s;
+  width:75%;
+}
+
+.colour-slide-four {
+  animation: slide-four 6s;
+  width:65%;
+}
+
+
+@keyframes slide {
+  0%{
+    color: transparent;
+    width: 0%;
+  }
+  10%{
+    width: 100%;
+  }
+  25%{
+    width: 95%;
+  }
+
+  45% {
+    width: 100%;
+  }
+
+  100%{
+    width: 95%;
+  }
+}
+
+@keyframes slide-two{
+  0%{
+    color: transparent;
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+
+@keyframes slide-three{
+  0%{
+    color: transparent;
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+
+@keyframes slide-four{
+  0%{
+    color: transparent;
+    width: 0%;
+  }
+  100%{
+    width: 65%;
+  }
+}
+
+.project-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+}
+
+#hero-container {
+  border-radius: 50%;
+  width:100%
+}
+
+#hero-img {
+  border-radius: 50%;
+  width: 60%;
+  height: 120%;
 }
