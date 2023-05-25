@@ -1,11 +1,11 @@
 
 ![mock-up-image](/project/images/mock-up-image.jpg)
 
-# About me 
+# About_me_ 
 
-About me is a mini project, about me. Build using Hubspots base web app on Github. 
+About me is a mini project, about me. Showcasing some of the projects i've previously worked on and am working on. It also features some information about who I am and what kind of skills and experiences I have. The website was build using Hubspots [base web app](https://github.com/HubSpot/BaseWebApp) on Github and deployed on Heroku. 
 The website features bootstrap responsiveness, intergrated Hubspot Web Analytics and animations from the animate on scroll libary. 
-The aims for this site were to try out new technologies and to create a userfriendly web app to showcase the projects I've worked on so far. 
+The aims for this site were to try out new technologies and to create a user friendly web app to showcase the projects I've worked on so far. 
 
 To veiw a live version of the site [click here](https://sam-hulme-about-me.herokuapp.com/)
 
