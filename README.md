@@ -1,3 +1,6 @@
+
+![mock-up-image](/project/images/mock-up-image.jpg)
+
 # About me 
 
 About me is a mini project, about me. Build using Hubspots base web app on Github. 
@@ -12,3 +15,7 @@ To view web analytics for this site [click here](https://app-eu1.hubspot.com/rep
 ## testing and validaion
 
 all website links have been tested accross the site, responsiveness for different screen sizes has been tested using google development tools. The site has been optimised using Lighthouse. All code written by me has been validated using online validators: Jstint, nu-html validator and W3C-CSS validator. All written and visual information on the site came from me the developer. 
+
+## Credits
+
+- Hubspot for the bare bones base web app and tutorials on setting started
