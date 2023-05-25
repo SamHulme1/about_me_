@@ -9,14 +9,37 @@ body {
   background-color:#F2EFEB;
 }
 
+nav a{
+  color: black !important;
+}
+
+.other-secondry-content-bg{
+  background-color: #6A6EB0;
+}
+
 button {
   background-color: #515373 !important;
   color: white !important;
 }
 
 .jumbotron {
-  background-color: #515373;
-  color: white;
+  color: black;
+}
+
+.slide-shade-one{
+  background-color: #6A6EB0;
+}
+
+.slide-shade-two{
+  background-color: #A4AAFC;
+}
+
+.slide-shade-three{
+  background-color: #B1B6FC;
+}
+
+.slide-shade-four{
+  background-color: #BDC2FC;
 }
 
 footer {
