@@ -26,15 +26,14 @@ $(document).ready(function(){
  set a variable in session to record that the 
  animation has been played */
  function projectAnimation(){
-   $(window).resize(function() {
-     if ($(this).width() <= 600) {
+     if ($(window).width() < 400) {
        $('#project-animation-display-area').css('display','none');
        $('.fade-inital').each(function() {
          $(this).removeAttr('data-aos-delay');
-     });
+        });
    
      } else {
-   
+      console.log("21");
        $('#sld-right').stop(true, true).delay(1000).animate({
          right: '-50%',
          opacity: 0,
@@ -58,8 +57,7 @@ $(document).ready(function(){
    
        }
    
-   });
- }
+   }
 
  /* check if the value project animation count has been set in storage
  if so disable animation area and remove delays to AOS content 
@@ -93,5 +91,3 @@ $(document).ready(function(){
  checkAnimationWelcome();
 
 });
-
-
