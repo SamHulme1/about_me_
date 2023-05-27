@@ -171,6 +171,36 @@ footer {
 }
 /* media screens */
 
+@media (min-width: 1000px){
+  body, h1, h2, h3 {
+    font-size: 2em;
+  }
+
+  h4, h5 {
+    font-size: 1.5em;
+  }
+  
+}
+
+
+@media (min-width: 1800px){
+  nav, footer {
+    font-size: 1.5em;
+  }
+  body, h1, h2, h3 {
+    font-size: 3.5em;
+  }
+
+  h4, h5 {
+    font-size: 2.5em;
+  }
+
+  p, .jumbotron {
+    font-size: 2em;
+  }
+  
+}
+
 @media (max-width: 600px){
   #project-animation-display-area {
     display: none;
