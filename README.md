@@ -11,7 +11,8 @@ To view a live version of the site [click here](https://sam-hulme-about-me.herok
 
 ![hubspot-analysis](/project/images/hubspot-activity.jpg)
 
-To view web analytics for this site [click here](https://app-eu1.hubspot.com/reports-dashboard/139645818/view/105908522)
+click the link below to view a small report based on data taken from analytics
+[small-hubspot-analysis-report](/project/hubspot-analytics-2023-05-27.docx)
 
 
 ## Testing and validation
