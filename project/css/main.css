@@ -47,6 +47,10 @@ button {
 
 footer {
   background-color: #0E1140;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .page-header {
@@ -171,8 +175,14 @@ footer {
 }
 /* media screens */
 
-@media (min-width: 1000px){
+@media (min-width: 3840px){
   body, h1, h2, h3 {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 1000px){
+  body, h1, h2, h3, button {
     font-size: 2em;
   }
 
@@ -187,15 +197,15 @@ footer {
   nav, footer {
     font-size: 1.5em;
   }
-  body, h1, h2, h3 {
-    font-size: 3.5em;
-  }
 
   h4, h5 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
-  p, .jumbotron {
+  p {
+    font-size: 1.5em;
+  }
+  .jumbotron{
     font-size: 2em;
   }
   
