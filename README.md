@@ -12,7 +12,7 @@ To view a live version of the site [click here](https://sam-hulme-about-me.herok
 ![hubspot-analysis](/project/images/hubspot-activity.jpg)
 
 click the link below to view a small report based on data taken from analytics
-[small-report](https://app.luminpdf.com/viewer/64736bfb5b9dfe816e3551c9)
+[small-report](https://drive.google.com/file/d/1L1rbwoYYuvxtNFeb35Nj1fm38L66qHqL/view?usp=sharing)
 
 
 ## Testing and validation
